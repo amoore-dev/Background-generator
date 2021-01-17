@@ -1,0 +1,80 @@
+body {
+	font: 'Calibri', sans-serif;
+    color: black;
+    font-weight: bold;
+    margin:0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Calibri', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h4 {
+	font: 900 1em 'Calibri', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 5rem;
+  font-weight: bold;
+  color: black;
+  /*padding-bottom: 2rem;*/
+}
+
+.details {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 5rem;
+/*  padding-bottom: 2rem;*/
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin: 1rem;
+  /*padding: 2rem;*/
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 500px;
+/*  text-align: center;
+  text-transform: uppercase;*/
+}
+
+.button {
+  background-color: #cfcfcf;
+  border: solid;
+  border-color:#bab8b8;
+  border-radius: 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #03fc45;
+}
